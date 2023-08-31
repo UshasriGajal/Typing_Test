@@ -260,7 +260,7 @@ if(accuracy>100){
   // 
 }
 function newpage(){
-  window.location.href="file:///D:/programs/frontend/Typing.html"
+  window.location.href="index.html"
 }
 
 

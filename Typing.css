@@ -1,0 +1,205 @@
+#total{ 
+    display: flex;
+    border: 1px solid black;
+} 
+body{
+    margin: 0;
+    padding:0;
+    background: linear-gradient(to right, #8770f8, #dd91f4, #fa25cc);
+}
+#secondValue{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+#typingLevel{
+    /* margin-bottom: 200px; */
+    float: right;
+}
+#timeValue{
+    height: 30px;
+    width: 100px;
+}
+#LevelValue{
+    height: 30px;
+    width: 100px;
+}
+#full_div{
+    height: 440px;
+    /* padding-top: 40px; */
+    /* display: flex; */
+}
+#Main_div{
+    padding: 30px;
+    padding-top:0px;
+    height: 390px;
+    width: 590px;
+    margin-top: 30px;
+    margin-left: 300px;
+    /* display: flex; */
+    /* background-color: rgb(244, 232, 232);*/
+    background-image: url(https://st2.depositphotos.com/2251265/10032/i/450/depositphotos_100324390-female-hands-typing-text-on-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: blur(1px); */
+    border: 1px solid black;
+    border-radius: 70px;
+}
+#heading{
+    /* padding: 30px; */
+    padding-top: 30px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(94, 41, 3);
+
+}
+.middle{
+    /* margin:30px; */
+    padding: 30px;
+    padding-top:0px;
+    height: 390px;
+    width: 590px;
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: rgb(244, 232, 232);
+    border-radius: 70px;
+    /* border: 1px solid black; */
+}
+
+
+.matter {
+    /* height:33.3%; */
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: 30px;
+    /* margin-bottom: 10px; Add margin between input lines */
+  }
+.fixed_matter{
+    height: 200px;
+    /* background-color: bisque; */
+    font-size: 21px;
+    padding-top: 0px;
+    width: 100%;
+    /* position: absolute; */
+    z-index: -1;
+}
+.write_here{
+    
+    height: 145px;
+    width: 100%;
+    font-size: x-large;
+}
+
+#start{
+
+    height: 40px;
+    width: 130px;
+    font-size: 17px ;
+    margin-top: 30px;
+    margin-left: 230px;
+    color: white;
+    background-color: rgb(65, 2, 72);
+    border: 1px solid rgb(65, 2, 72);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.restart{
+    height: 40px;
+    width: 130px;
+    font-size: 17px ;
+    margin-top: 20px;
+    margin-left: 480px;
+    color: white;
+    background-color: rgb(65, 2, 72);
+    border: 1px solid rgb(65, 2, 72);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.get{
+    height: 40px;
+    width: 130px;
+    font-size: 17px ;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    background-color: rgb(65, 2, 72);
+    border: 1px solid rgb(65, 2, 72);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cal{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(65, 2, 72);
+    border: 1px solid rgb(65, 2, 72);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.Resultdiv{
+    height: 200px;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 380px;
+    /* text-align: center; */
+    /* margin-left: 700pxs; */
+    /* display: flex; */
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    background-color:  rgb(208, 110, 219);
+    border: 1px solid rgb(65, 2, 72);
+    border-radius: 20px;
+    /* float: right; */
+}
+.mainresult{
+    margin-left: 350px;
+    margin-top: 140px;
+    height: 350px;
+    width: 550px;
+    
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(244, 232, 232);
+    border-radius: 20px;
+}
+.gross{
+    height: 100px;
+    width: 130px;
+    /* border: 1px solid black; */
+    font-size: 23px;
+    text-align: center;
+    margin-top: 15px;
+}
+.textgross{
+    height: 60px;
+    width: 125px;
+    /* border: 1px solid black; */
+    
+}
+.correctDiv{
+    display: flex;
+    /* height: ; */
+}
+.wrongDiv{
+    /* margin-left:50px; */
+    text-align: center;
+}
+/* #countdown{ */
+    /* display: none;
+    /* visibility: hidden; */
+/* } */
+/* .visible{
+    display: hidden;
+}  */

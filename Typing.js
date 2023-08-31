@@ -260,7 +260,7 @@ if(accuracy>100){
   // 
 }
 function newpage(){
-  window.location.href="https://ushasrigajal.github.io/Typing_Test/"
+  window.location.href="index.html"
 }
 
 

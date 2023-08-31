@@ -227,12 +227,7 @@ function cal(){
   var wrongDiv=document.createElement("div")
   wrongDiv.setAttribute("class","wrongDiv")
   var wrongvalue
-  if(wrongarr<=0){
-    wrongarr.length==0
-  }
-  else if(wrongarr>0){
-    wrongarr.length==wrongarr.length-1
-  }
+  
   
   var accuracy = ((countf/ newwritten.length)*100)
   accuracy=accuracy.toFixed(2)
@@ -250,6 +245,13 @@ if(accuracy>100){
   netDiv.append(textdiv,netvalue)
   correctDiv.append(grossDiv,accuracyDiv,netDiv)
   var br=document.createElement("br")
+  if(wrongarr>0){
+    wrongarr.length==wrongarr.length-1
+  }
+  if(wrongarr<=0){
+    wrongarr.length==0
+  }
+  
   wrongDiv.append("Correct Words="+(countf),br,"Wrong Words="+(wrongarr.length))
  
   // Resultdiv.append("Net Speed ="+count,br,"Wrong Words ="+wrongarr.length)
@@ -260,7 +262,7 @@ if(accuracy>100){
   // 
 }
 function newpage(){
-  window.location.href="file:///D:/programs/frontend/Typing.html"
+  window.location.href="Typing.html"
 }
 
 

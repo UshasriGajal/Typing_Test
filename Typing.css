@@ -26,7 +26,8 @@ body{
 }
 #full_div{
     height: 440px;
-    /* padding-top: 40px; */
+    padding-left: 25%;
+    margin-top: 5%;
     /* display: flex; */
 }
 #Main_div{
@@ -34,8 +35,8 @@ body{
     padding-top:0px;
     height: 390px;
     width: 590px;
-    margin-top: 30px;
-    margin-left: 300px;
+    
+    /* margin-left: 25%; */
     /* display: flex; */
     /* background-color: rgb(244, 232, 232);*/
     background-image: url(https://st2.depositphotos.com/2251265/10032/i/450/depositphotos_100324390-female-hands-typing-text-on-keyboard.jpg);
@@ -61,7 +62,7 @@ body{
     height: 390px;
     width: 590px;
     margin-top: 30px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     background-color: rgb(244, 232, 232);
     border-radius: 70px;
     /* border: 1px solid black; */
@@ -112,7 +113,7 @@ body{
     width: 130px;
     font-size: 17px ;
     margin-top: 20px;
-    margin-left: 480px;
+    margin-left: 19%;
     color: white;
     background-color: rgb(65, 2, 72);
     border: 1px solid rgb(65, 2, 72);
@@ -162,8 +163,8 @@ body{
     /* float: right; */
 }
 .mainresult{
-    margin-left: 350px;
-    margin-top: 140px;
+    margin-left: 28%;
+    margin-top: 8%;
     height: 350px;
     width: 550px;
     

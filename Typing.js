@@ -262,11 +262,7 @@ if(accuracy>100){
   // 
 }
 function newpage(){
-<<<<<<< HEAD
   window.location.href="index.html"
-=======
-  window.location.href="index.html"
->>>>>>> 1bcc0134dbdb8b546445f1f624516a66c6e37e34
 }
 
 

@@ -5,7 +5,9 @@
 body{
     margin: 0;
     padding:0;
-    background: linear-gradient(to right, #8770f8, #dd91f4, #fa25cc);
+    /* background: linear-gradient(to right, #8770f8, #dd91f4, #fa25cc); */
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/005/658/973/small/abstract-background-illustration-wallpaper-with-blue-light-color-blue-grid-mosaic-background-creative-design-templates-free-vector.jpg);
+    background-size: cover;
 }
 #secondValue{
     display: flex;
@@ -44,7 +46,7 @@ body{
     background-position: center;
     background-size: cover;
     /* filter: blur(1px); */
-    border: 1px solid black;
+    border: 1px solid rgb(116, 164, 167);
     border-radius: 70px;
 }
 #heading{
@@ -115,8 +117,8 @@ body{
     margin-top: 20px;
     margin-left: 19%;
     color: white;
-    background-color: rgb(65, 2, 72);
-    border: 1px solid rgb(65, 2, 72);
+    background-color: rgb(239, 150, 166);
+    border: 1px solid rgb(234, 212, 216);
     border-radius: 20px;
     cursor: pointer;
 }
@@ -139,8 +141,8 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     color: white;
-    background-color: rgb(65, 2, 72);
-    border: 1px solid rgb(65, 2, 72);
+    background-color:rgb(239, 150, 166);
+    border: 1px solid rgb(239, 150, 166);
     border-radius: 20px;
     cursor: pointer;
 
@@ -172,7 +174,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 1px solid rgb(244, 232, 232);
+    border: 1px solid rgb(234, 208, 208);
     border-radius: 20px;
 }
 .gross{

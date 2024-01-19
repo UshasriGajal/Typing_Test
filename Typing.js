@@ -35,7 +35,7 @@ restart.setAttribute("class","restart")
 restart.addEventListener("click",start)
 restart.innerText="Restart"
 
-// var calculate=document.createElement("button")
+
 // calculate.setAttribute("class","start")
 // newstart.innerText="Start"
 
